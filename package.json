@@ -1,18 +1,16 @@
 {
   "name": "linter-openapi",
-  "main": "./lib/linter-openapi",
+  "main": "lib/index.js",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "private": true,
+  "description": "My Linter Package",
   "keywords": [
-    "linter",
-    "linter-openapi",
-    "openapi"
+    "linter-example",
+    "example"
   ],
-  "repository": "https://github.com/atom/linter-openapi",
-  "license": "MIT",
-  "package-deps": [
-    "linter:2.0.0"
-  ],
+  "engines": {
+    "atom": ">=1.4.0 <2.0.0"
+  },
   "providedServices": {
     "linter": {
       "versions": {
@@ -20,10 +18,8 @@
       }
     }
   },
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
   "dependencies": {
-    "atom-package-deps": "^7.0.2"
+    "oas-validator": "^5.0.2",
+    "yaml": "^1.10.0"
   }
 }
