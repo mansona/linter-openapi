@@ -1,0 +1,29 @@
+{
+  "name": "linter-openapi",
+  "main": "./lib/linter-openapi",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+    "linter",
+    "linter-openapi",
+    "openapi"
+  ],
+  "repository": "https://github.com/atom/linter-openapi",
+  "license": "MIT",
+  "package-deps": [
+    "linter:2.0.0"
+  ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-package-deps": "^7.0.2"
+  }
+}
