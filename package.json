@@ -1,13 +1,19 @@
 {
   "name": "linter-openapi",
-  "main": "lib/index.js",
   "version": "0.0.0",
-  "private": true,
   "description": "My Linter Package",
   "keywords": [
     "linter-example",
     "example"
   ],
+  "repository": "https://github.com/mansona/linter-openapi",
+  "license": "MIT",
+  "author": "Chris Manson <chris@manson.ie>",
+  "main": "lib/index.js",
+  "dependencies": {
+    "openapi-enforcer": "^1.10.8",
+    "yaml": "^1.10.0"
+  },
   "engines": {
     "atom": ">=1.4.0 <2.0.0"
   },
@@ -17,9 +23,5 @@
         "2.0.0": "provideLinter"
       }
     }
-  },
-  "dependencies": {
-    "openapi-enforcer": "^1.10.8",
-    "yaml": "^1.10.0"
   }
 }
