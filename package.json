@@ -1,7 +1,7 @@
 {
   "name": "linter-openapi",
-  "version": "1.0.0",
-  "description": "My Linter Package",
+  "version": "0.0.0",
+  "description": "Linter for openapi documents",
   "keywords": [
     "linter-example",
     "example"
