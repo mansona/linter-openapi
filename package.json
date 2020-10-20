@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "description": "Linter for openapi documents",
   "keywords": [
-    "linter-example",
-    "example"
+    "linter-openapi",
+    "linter",
+    "openapi",
+    "atom"
   ],
   "repository": "https://github.com/mansona/linter-openapi",
   "license": "MIT",
