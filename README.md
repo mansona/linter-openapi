@@ -2,7 +2,7 @@
 
 This linter plugin for [Linter](https://github.com/AtomLinter/Linter) provides
 an interface to [openapi-enforcer](https://byu-oit.github.io/openapi-enforcer/). It will be used with files that
-have the "JavaScript" syntax.
+have the "YAML" syntax.
 
 ## Installation
 
